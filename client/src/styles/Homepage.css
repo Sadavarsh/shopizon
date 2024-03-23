@@ -10,6 +10,7 @@
 .home-page {
   display: flex;
   flex-wrap: wrap;
+  width: 100VW;
 }
 .home-page .card {
   background-color: rgba(128, 128, 128, 0.097);
@@ -41,7 +42,9 @@
 .home-page .card img:hover {
   transform: scale(0.9);
 }
-
+.card-img-top {
+  object-fit: cover;
+}
 .home-page .card-img-top {
   height: 300px !important;
 }
